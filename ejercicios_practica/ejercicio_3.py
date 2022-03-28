@@ -14,6 +14,20 @@ numero_1 = 7
 numero_2 = -2
 
 # Verifique si el numero_1 es mayor a 5
+
+if numero_1 > 5:
+    if numero_2 > 0:
+        print("resp=1")
+    elif numero_2 < 0:
+	    print("resp=2")
+elif numero_1 < 5:
+    if numero_2 > 5:
+        print("resp=3")
+    elif numero_2 < 5:
+	    print("resp=4")
+else:
+    print("numero_1 es cero")
+
 #   --> En caso afirmativo, verifique si el numero_2
 #       es positivo
 #       --> En caso afirmativo imprima en pantalla "Resp=1"
